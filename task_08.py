@@ -1,5 +1,3 @@
-from functools import reduce
-
 def odometer(oksana):
     pairs = list(zip(oksana[::2], oksana[1::2]))
     speeds, times = zip(*pairs)
